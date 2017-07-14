@@ -1,0 +1,70 @@
+---
+title: "My Project in R"
+author: "Alberto Flórez Peña"
+date: "13 de julio de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## !Hello everyone!
+
+Hi, this is my project in R.
+
+In this project, I will try to present a summary of some basic notions of R, which I hope will be useful for the next courses.
+
+## What is R?
+
+R is a system for statistical analysis and graphics created by Ross Ihaka and Robert Gentleman.
+
+R was created in 1992 in New Zealand by Ross Ihaka and Robert Gentleman (Ihaka [1998]). The initial intention with R, was to make a didactic language, to be used in the course of Introduction to Statistics of the University of New Zealand. They decided to adopt the syntax of the S language developed by Bell Laboratories.
+
+R has a dual nature of program and programming language and is considered as a dialect of the S language created by AT & T Bell Labs. S is available as the S-PLUS program marketed by Insightful.
+
+R is an interpreted programming language, of free distribution, under GNU License, and is maintained in an environment for the statistical and graphic computation. This software runs on different platforms like Linux, Windows, MacOS, and even on PlayStation 3.
+
+## Some Important Features
+
+The R system is divided into two conceptual parts:
+
+* The base system of R, which is the one you can download from CRAN
+
+* In everything else. The functionality of R consists of modular packages that are hosted in the CRAN (The Comprehensive R Archive Network) or in Github.
+
+## Some Packages
+
+**Upload data**
+
+SQLdf, RODBC, RPostgresSQL, RSQLite: To load data from a database and to be able to perform queries.
+
+Foreign: allows the loading of external software data such as SAS or SPSS directly.
+
+**Data manipulation**
+
+Plyr: Fundamental for data aggregation and application of functions by groups. This package is one of the most used and contains some functions like ddply, daply, dlply, adply, ldply for application functions that are indispensable.
+Lubridate: If you want to work with dates you can not pass this package. It contains all the functions that can be applied on data in date format and are used in a very simple way. Driving dates without this package is an ordeal.
+Reshape2: Transforming data into an appropriate format often takes a lot of time in a project. This package allows to make some transformations in a very simple way.
+Stringr: Basic R-string functions can be cumbersome. Text strings will be much easier to handle with this package.
+
+**Display**
+
+Ggplot2: It improves the usual functions of R for graphs being able to include more layers and specifications.
+There are several useful books for this package. Perhaps it is one of the packages that had the most influence among users of R, being one of the most used and most preferred packages within the community R.
+
+Rgl: Interactive 3D graphics. Even 3D geometric shapes can be represented.
+
+**Modeling**
+
+* Caret: Includes simple tools to analyze data quality, selection of characteristics and construction of predictive models. The results it provides are especially complete.
+
+* Car: Among other benefits it allows to perform ANOVA type II and type III.
+Randomforest: This method of machine learning can be used for both supervised and unsupervised learning. It is quite popular because of its simplicity and good results.
+
+* Qcc: Package For the statistical control of quality. It offers easy-to-use functions and very intuitive graphics to observe processes under control and events that are out of control.
+
+* Zoo and forecast: They perform data formatting and creation of forecast models for time series.
+
+
+
